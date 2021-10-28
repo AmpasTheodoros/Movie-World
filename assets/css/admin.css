@@ -1,0 +1,101 @@
+:root{  /*Thodoris*/
+    --hd-color: #034893;
+    --hd-media-color: #135295;
+    --hd-hover-color: #023165;
+    --contact-color: #fff;
+    --white-black:#fff;
+    --black-white:#000;
+  }
+  .dark-theme{  /*Thodoris*/
+    --hd-color: #303036;
+    --hd-hover-color: #343a40;
+    --contact-color: #272727;
+    --white-black:#000;
+    --black-white:#fff;
+  
+    --body-color: #18191B;
+    --nav-color: #000;
+    --bg-color:  #242527;
+    --hd-icons: #fff;
+    --search-color: #3A3B3D;
+    --leftslide-color: #303032;
+  }
+  
+  header {
+    background: var(--hd-color);
+  }
+  
+  .admin-wrapper {
+    display: flex;
+    height: calc(100% - 66px);
+  }
+  
+  .admin-wrapper .left-sidebar {
+    flex: 2;
+    height: 100%;
+    background: var(--hd-hover-color);
+  }
+  
+  .admin-wrapper .left-sidebar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    color: aliceblue;
+  }
+  
+  .admin-wrapper .left-sidebar ul li a {
+    padding: 18px;
+    display: block;
+    border-bottom: 1px solid var(--hd-hover-color);
+  }
+  
+  .admin-wrapper .left-sidebar ul li a:hover {
+    background: var(--hd-hover-color);
+  }
+  
+  .admin-wrapper .admin-content {
+    flex: 8;
+    height: 100%;
+    padding: 40px 100px 100px;
+    overflow-y: scroll;
+  }
+  .admin-content .page-title {
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 1.1rem;
+  }
+  
+  th,
+  td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #d3d3d3;
+  }
+  
+  .edit {
+    color: green;
+  }
+  
+  .delete {
+    color: red;
+  }
+  
+  .publish {
+    color: blue;
+  }
+  
+  .edit:hover,
+  .delete:hover,
+  .publish:hover {
+    text-decoration: underline;
+  }
+  
+  form div {
+    margin-bottom: 15px;
+  }
+  
